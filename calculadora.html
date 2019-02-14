@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULADORA</title>
+	<link rel="stylesheet" type="text/css" href="calculadora.css">
+	<script type="text/javascript" src="calculadora.js"></script>
+	<h1>CALCULADORA</h1>
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+</style>
+</head>
+<body>
+	<div class="calcu">
+		<br>
+	<div id="respuesta" class="respuesta">
+	</div>
+	<button type="button" class="boton" onclick="javascript:window.location.reload();"><b>AC</b></button>
+	<button class="boton">+/-</button>
+	<button class="boton">%</button>
+	<button onclick="vaciar('/')" class="naranja">÷</button>
+	<br>
+	<button onclick="pan('7')" class="numeros">7</button>
+	<button onclick="pan('8')" class="numeros">8</button>
+	<button onclick="pan('9')" class="numeros">9</button>
+	<button onclick="vaciar('*')" class="naranja">x</button>
+	<br>
+	<button onclick="pan('4')" class="numeros">4</button>
+	<button onclick="pan('5')" class="numeros">5</button>
+	<button onclick="pan('6')" class="numeros">6</button>
+	<button onclick="vaciar('-')" class="naranja">-</button>
+	<br>
+	<button onclick="pan('1')" class="numeros">1</button>
+	<button onclick="pan('2')" class="numeros">2</button>
+	<button onclick="pan('3')" class="numeros">3</button>
+	<button onclick="vaciar('+')" class="naranja">+</button>
+	<br>
+	<button onclick="pan('0')" id="cero">0</button>
+	<button onclick="pan('.')" class="numeros">.</button>
+	<button onclick="result()"class="naranja">=</button>
+		
+	</div>
+</div>
+</body>
+</html>

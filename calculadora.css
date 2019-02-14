@@ -1,0 +1,68 @@
+h1{
+			margin-left: 40%;
+			color: black;
+			font-size: 50;	
+			margin-top: 20px;
+		}
+		.boton{
+			margin-top: 20px;
+			margin-left: 5px;
+			height: 50px;
+			width: 50px;
+			border-radius: 50px;
+			color: #000000;
+			border: none;
+		}
+		#cero{
+			font-size: 20px;
+			margin-top: 20px;
+			margin-left: 5px;
+			height: 50px;
+			width: 108px;
+			border-radius: 50px;
+			background-color: #2E2E2E;
+			color: #FFFFFF;
+			border: none;
+
+		}
+		.naranja{
+			font-size: 20px;
+			margin-top: 20px;
+			margin-left: 5px;
+			height: 50px;
+			width: 50px;
+			border-radius: 50px;
+			color: #FFFFFF;
+			border: none;
+			background-color: #FE9A2E;
+		}
+
+		.numeros{
+			font-size: 20px;
+			margin-top: 20px;
+			margin-left: 5px;
+			height: 50px;
+			width: 50px;
+			border-radius: 50px;
+			background-color: #2E2E2E;
+			color: #FFFFFF;
+			border: none;
+		}
+		.calcu{
+			border-radius: 15px;
+			margin-top: 50px;
+			margin-left: 40%;
+			width: 240px; 
+			height: 440px;
+			background-color: #000000;
+		}
+		.respuesta{
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 30px;
+			margin-left: 8%;
+			border-radius: 15px;
+			width: 200px; 
+			height: 60px;
+			background-color: #2E2E2E;
+		}
